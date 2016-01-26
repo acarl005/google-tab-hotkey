@@ -1,0 +1,20 @@
+{
+  "name": "Google Tab Hotkey",
+  "version": "1.0",
+  "author": "Andrew Carlson <acarl005@g.ucla.edu>",
+  "manifest_version": 2,
+  "description": "Quickly scroll through Google search results with TAB and shift+TAB.",
+  "icons": { 
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png" 
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/search*"],
+      "js": ["resources/jquery.min.js","code/js.js"],
+      "css": ["code/css.css"]
+    }
+  ],
+  "web_accessible_resources":["resources/*"]
+}
