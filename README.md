@@ -7,3 +7,5 @@ The default TAB behavior gets you nowhere fast.
 I'd rather scroll through each link by pressing TAB and shift+TAB.
 This Chrome extension adds that functionality.
 
+![demo](images/demo.gif)
+
