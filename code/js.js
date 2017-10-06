@@ -19,7 +19,7 @@ $(document).ready(() => {
     if (e.shiftKey) {
       activeIndex = Math.max(activeIndex - 1, -1)
     } else {
-      activeIndex = Math.min(activeIndex + 1, searchResults.length - 1)
+      activeIndex = Math.min(activeIndex + 1, searchResults.length)
     }
 
     // find the next search result to focus
@@ -27,6 +27,9 @@ $(document).ready(() => {
     if (activeIndex === -1) {
       const queryInput = $('#lst-ib')
       queryInput.focus()
+    } else if (activeIndex === searchResults.length) {
+      const nextButton = $('#pnnext')
+      nextButton.focus()
     } else {
       const targetElement = searchResults[activeIndex]
       const targetLink = $(targetElement).find('.rc > .r > a')
