@@ -13,7 +13,7 @@ $(document).ready(() => {
     e.preventDefault()
 
     // get the search result items from the DOM if we haven't already
-    searchResults = searchResults || $('#search .g, ._NId > .g:not(.g-blk)')
+    searchResults = searchResults || $('.g:not(.g-blk)').not('.related-question-pair .g')
 
     // see if we are going forward or backward
     if (e.shiftKey) {
