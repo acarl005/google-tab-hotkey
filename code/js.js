@@ -25,7 +25,7 @@ $(document).ready(() => {
     // find the next search result to focus
     // focus the search query input bar if we go all the way back to the very beginning
     if (activeIndex === -1) {
-      const queryInput = $('#lst-ib')
+      const queryInput = $('input[name=q],#lst-ib')
       queryInput.focus()
     } else if (activeIndex === searchResults.length) {
       const nextButton = $('#pnnext')
