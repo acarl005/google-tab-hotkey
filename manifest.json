@@ -12,8 +12,13 @@
   "content_scripts": [
     {
       "matches": ["https://www.google.com/search*"],
-      "js": ["resources/jquery.min.js","code/js.js"],
-      "css": ["code/css.css"]
+      "js": ["resources/jquery.min.js", "code/google/js.js"],
+      "css": ["code/google/css.css"]
+    },
+    {
+      "matches": ["https://duckduckgo.com/*"],
+      "js": ["resources/jquery.min.js", "code/duck/js.js"],
+      "css": ["code/duck/css.css"]
     }
   ],
   "web_accessible_resources":["resources/*"]
