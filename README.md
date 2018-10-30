@@ -11,3 +11,7 @@ This Chrome extension adds that functionality.
 
 This isn't on the official Chrome Web Store yet, so you can clone the code and install it manually at chrome://extensions, assuming you have developer mode enabled.
 
+## Other Search Engines
+
+This actually works for DuckDuckGo too! Happy to accept PRs for any others if you'd like to add.
+
