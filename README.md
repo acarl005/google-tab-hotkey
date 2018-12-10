@@ -11,6 +11,10 @@ This Chrome extension adds that functionality.
 
 This isn't on the official Chrome Web Store yet, so you can clone the code and install it manually at chrome://extensions, assuming you have developer mode enabled.
 
+## Internationalization
+
+The manifest file assumes the domain is `google.com`, which works in the US. But other Google domains like `google.co.id` in Indonesia will not work. The manifest file must be edited.
+
 ## Other Search Engines
 
 This actually works for DuckDuckGo too! Happy to accept PRs for any others if you'd like to add.
