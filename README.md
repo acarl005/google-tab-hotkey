@@ -13,7 +13,7 @@ This isn't on the official Chrome Web Store yet, so you can clone the code and i
 
 ## Internationalization
 
-The manifest file assumes the domain is `google.com`, which works in the US. But other Google domains like `google.co.id` in Indonesia will not work. The manifest file must be edited.
+This is only tested on the Google search page in the US. It may differ on the Google domains in other countries.
 
 ## Other Search Engines
 
