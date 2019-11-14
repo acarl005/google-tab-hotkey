@@ -220,5 +220,5 @@
       "css": ["code/duck/css.css"]
     }
   ],
-  "web_accessible_resources":["resources/*"]
+  "web_accessible_resources": ["resources/*"]
 }

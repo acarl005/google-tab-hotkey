@@ -5,11 +5,30 @@ I use Google search very heavily.
 It would save a lot of time if I didnt have to grab the mouse to click the link I want.
 The default TAB behavior gets you nowhere fast.
 I'd rather scroll through each link by pressing TAB and shift+TAB.
-This Chrome extension adds that functionality.
+This Chrome/Firefox extension adds that functionality.
 
 ![demo](images/demo.gif)
 
-This isn't on the official Chrome Web Store yet, so you can clone the code and install it manually at chrome://extensions, assuming you have developer mode enabled.
+## Installation
+
+This isn't on any official stores yet.
+You'll have to install it manually from source code.
+
+First, you'll need to clone it down.
+
+```sh
+git clone https://github.com/acarl005/google-tab-hotkey.git
+```
+
+From here, follow the browser-specific instructions to install (either Chrome or Firefox).
+
+### Google Chrome
+
+Install at [chrome://extensions](chrome://extensions), instructions [here](https://stackoverflow.com/questions/24577024/install-chrome-extension-not-in-the-store).
+
+### Mozilla Firefox
+
+Install at [about:debugging](about:debugging), instructions [here](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#Installing).
 
 ## Internationalization
 
