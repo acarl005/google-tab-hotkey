@@ -211,12 +211,12 @@
         "https://www.google.co.zm/search*",
         "https://www.google.co.zw/search*"
       ],
-      "js": ["resources/jquery.min.js", "code/google/js.js"],
+      "js": ["resources/jquery-3.4.1.min.js", "code/google/js.js"],
       "css": ["code/google/css.css"]
     },
     {
       "matches": ["https://duckduckgo.com/*"],
-      "js": ["resources/jquery.min.js", "code/duck/js.js"],
+      "js": ["resources/jquery-3.4.1.min.js", "code/duck/js.js"],
       "css": ["code/duck/css.css"]
     }
   ],
