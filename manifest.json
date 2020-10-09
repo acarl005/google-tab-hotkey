@@ -1,6 +1,6 @@
 {
   "name": "Google Tab Hotkey",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Andrew Carlson <acarl005@g.ucla.edu>",
   "manifest_version": 2,
   "description": "Quickly scroll through Google search results with TAB and shift+TAB.",

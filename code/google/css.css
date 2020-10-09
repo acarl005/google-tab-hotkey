@@ -1,4 +1,4 @@
-.rc > .r > a:focus::before,
+.rc > div > a:focus::before,
 .r g-link a:focus::before {
   content: '➪ ';
   display: block;

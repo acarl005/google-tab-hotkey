@@ -13,7 +13,7 @@ $(document).ready(() => {
     e.preventDefault()
 
     // get the search result items from the DOM if we haven't already
-    searchResults = searchResults || $('.g:not(.g-blk):not(#act-card):has(.rc > .r > a, .r g-link a)').not('.related-question-pair .g')
+    searchResults = searchResults || $('.g:not(.g-blk):not(#act-card):has(.rc > div > a, .r g-link a)').not('.related-question-pair .g')
 
     // see if we are going forward or backward
     if (e.shiftKey) {
@@ -32,7 +32,7 @@ $(document).ready(() => {
       nextButton.focus()
     } else {
       const targetElement = searchResults[activeIndex]
-      const targetLink = $(targetElement).find('.rc > .r > a, .r g-link a')
+      const targetLink = $(targetElement).find('.rc > div > a, .r g-link a')
       targetLink.focus()
     }
   })
