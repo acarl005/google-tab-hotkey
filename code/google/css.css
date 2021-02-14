@@ -1,5 +1,4 @@
-.rc > div > a:focus::before,
-.r g-link a:focus::before {
+div > div > a:focus::before {
   content: '➪ ';
   display: block;
   position: absolute;
