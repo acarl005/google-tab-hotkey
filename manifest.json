@@ -1,7 +1,7 @@
 {
   "name": "Google Tab Hotkey",
-  "version": "1.1",
-  "author": "Andrew Carlson <acarl005@g.ucla.edu>",
+  "version": "1.2",
+  "author": "Andrew Carlson <2yinyang2@gmail.com>",
   "manifest_version": 2,
   "description": "Quickly scroll through Google/DuckDuckGo search results with TAB and shift+TAB.",
   "icons": { 
